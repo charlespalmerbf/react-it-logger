@@ -23,7 +23,7 @@ export const getLogs = () => async dispatch => {
         dispatch({
 
             type: LOGS_ERROR,
-            payload: err.response.data
+            payload: err.response.statusText
 
         });
         
@@ -62,7 +62,7 @@ export const addLog = (log) => async dispatch => {
         dispatch({
 
             type: LOGS_ERROR,
-            payload: err.response.data
+            payload: err.response.statusText
 
         });
         
@@ -95,7 +95,7 @@ export const deleteLog = (id) => async dispatch => {
         dispatch({
 
             type: LOGS_ERROR,
-            payload: err.response.data
+            payload: err.response.statusText
 
         });
         
@@ -136,7 +136,7 @@ export const updateLog = log => async dispatch => {
         dispatch({
 
             type: LOGS_ERROR,
-            payload: err.response.data
+            payload: err.response.statusText
 
         });
         
@@ -167,7 +167,7 @@ export const searchLogs = (text) => async dispatch => {
         dispatch({
 
             type: LOGS_ERROR,
-            payload: err.response.data
+            payload: err.response.statusText
 
         });
         
