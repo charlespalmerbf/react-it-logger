@@ -20,13 +20,6 @@
       "attention": false,
       "date": "03-02-2019",
       "tech": "Sara Wilson"
-    },
-    {
-      "message": "Changed network card on server 007.",
-      "attention": "false",
-      "tech": "Sam Smith",
-      "date": "2021-07-25T12:32:10.810Z",
-      "id": 4
     }
   ],
   "techs": [
