@@ -1,3 +1,5 @@
+# React IT Logger
+
 Welcome to my GitHub repository for React IT Logger! This is a web application built with React and Redux for managing IT-related logs. Below you will find some information on how to use and navigate this repository.
 
 ## Getting Started
